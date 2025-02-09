@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f8fa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.account-btn {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Checkout Container */
+.checkout-container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout Form */
+.checkout-form {
+    flex: 2;
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group div {
+    flex: 1;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.credit-card {
+    display: flex;
+    gap: 10px;
+}
+
+.credit-card input {
+    flex: 1;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 15px;
+    background: #008060;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background: #007bff;
+    color: white;
+    padding: 30px;
+    border-radius: 0 8px 8px 0;
+}
+
+.price {
+    font-size: 28px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.switch-plan {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.testimonial {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.testimonial-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.help-section {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing between the icon and text */
+    justify-content: center; /* Centers content horizontally */
+    margin-top: 15px;
+}
+
+.help-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #d1e7ff; /* Light blue background */
+    color: #007bff; /* Blue text */
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Makes it a circle */
+    font-family: Arial, sans-serif;
+}
+
+.stripe-badge {
+    background: #f5f8fa; /* Light gray background */
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}

@@ -1,0 +1,62 @@
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+    background-color: #7d7d7d; /* Grey background */  
+    color: #333; /* Dark text color */  
+}  
+
+.header {  
+    text-align: left;  
+    padding: 60px 20px;  
+    background-color: #ffffff; /* White background for header */  
+}  
+
+.title {  
+    font-size: 48px;  
+    font-weight: bold;  
+    margin: 0 0 10px;  
+}  
+
+.description {  
+    font-size: 20px;  
+    margin: 0 0 10px;  
+    line-height: 1.5;  
+}  
+
+.highlight {  
+    color: #008080; /* Adjust color as needed */  
+    font-weight: bold;  
+}  
+
+.tagline {  
+    font-size: 18px;  
+    margin: 0;  
+    line-height: 1.5;  
+}  
+
+.main-content {  
+    max-width: 800px;  
+    margin: 30px auto; /* Center the main content */  
+    padding: 20px;  
+    background-color: #ffffff; /* White background for text block */  
+    border-radius: 8px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+}  
+
+.highlighted-title {  
+    background-color: #f1c40f; /* Yellow background */  
+    padding: 10px;  
+    border-radius: 5px 5px 0 0; /* Rounded corners only at the top */  
+}  
+
+.highlighted-title h2 {  
+    margin: 0;  
+    font-size: 24px;  
+    text-align: center;  
+}  
+
+p {  
+    font-size: 16px;  
+    line-height: 1.6; /* Improved readability */  
+    margin: 15px 0; /* Spacing between paragraphs */  
+}
